@@ -62,11 +62,15 @@ p {
 }
 
 main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5vh;
+	align-content: center;
 	height: 100vh;
 }
 
-main > .logo {
-	padding: 10vh 0 7vh;
+main .logo {
+	margin: 0 auto;
 }
 
 .btn-group {
